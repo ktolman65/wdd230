@@ -2,13 +2,16 @@
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
+
 h2 a {
 	text-decoration: none;
 	color: #ffffff;
 }
+
 h2 a:hover {
-	color: gold;
+	color: navy;
 }
+
 .box {
 	background-color: #ecedf1;
 	margin: 15px;
@@ -25,22 +28,26 @@ h2 a:hover {
 	margin: 0;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .box h4 {
 	text-align: left;
 	margin: 10px 0px 2px 5px;
 	font-family: serif;
 	font-size: 1.2em;
 }
+
 .box picture img {
 	max-width: 90%;
 	margin: 5%;
 }
+
 .box p {
 	margin: 0px 0px 0px 5px;
 	text-align: left;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	padding: 0.5rem;
 }
+
 header,
 footer {
 	border-radius: 0;

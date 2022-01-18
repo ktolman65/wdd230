@@ -1,25 +1,43 @@
 /* ------------------ Tablet views --------------- */
 
 @media only screen and (min-width: 32.5em) {
-  header, footer {
-    border-radius: 15px;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-  }
 
-  h2 {
-    font-size: 1.5rem;
-  }
+	header,
+	footer,
+	main {
+		max-width: 70vw;
+		margin: auto;
+	}
 
-  main {
-    font-size: 1rem;
-  }
+	/* check renamed photo */
+	#myphoto {
+		float: right;
+		z-index: 100;
+		margin-top: 40px;
+		box-shadow: 0 0 30px #444;
+		border-radius: 0 10px 0 0;
+	}
 
-  img {
-    float: right;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(5, 3, 3, 15);
-  }
-}   
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	header,
+	footer {
+		border-radius: 10px;
+	}
+
+	.design-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+	}
+
+	.box {
+		height: 98%;
+	}
+}

@@ -1,58 +1,115 @@
-body {
-  max-width: 700px;
-  margin: auto;
+/* establish global settings ------- start */
+:root {
+	--heading-font: 'Frank Ruhl Libre', 'Open-Sans', serif;
+	--paragraph-font: Tahoma, Geneva, sans-serif;
 }
-
-header, h1, h2, footer {
-  font-family: 'Quicksand', Helvetica, sans-serif;
-  font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--heading-font);
 }
-
-header, footer {
-  background-color: #5d5c61;    
-  color: white;
-  text-align: center;
-  padding: 18px;  
+p {
+	font-family: var(--paragraph-font);
 }
-
 h1 {
-  font-size: 1.5rem;
-  margin: 0;
-  padding-top: 10px;
+	font-size: 1.5rem;
 }
-
 h2 {
-  font-size: 1rem;
-  font-weight: bold;
+	font-size: 1rem;
+}
+h3 {
+	font-size: 1rem;
+}
+h4 {
+	font-size: 1rem;
+}
+small {
+	font-size: 0.8rem;
 }
 
+/* Start Box Model Fix - first documented by Paul Irish - Start */
+
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/* End Box Model Fix - End */
+body {
+	margin: 0;
+	height: 100%;
+	line-height: 1.5;
+	font-size: 16px;
+}
 img {
-  height: 250px;
-  width: auto;
+	max-width: 100%;
 }
-
-main {
-  font-family: 'Quicksand', Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: .75rem;
-  margin: 10px 40px;
+/* establish global settings ---------  End */
+/* header and footer ---------- Start */
+header {
+	margin-top: 10px;
 }
-
+header,
 footer {
-  height: 60px;
+	background-color: #5d5c61;
+	padding: 1rem;
+	color: #ffffff;
+	width: 100vw;
+	margin: 0;
+	text-align: center;
 }
 
-footer p { 
-  margin: 1px;
-  padding: 2px;
+footer a {
+	color: white;
+	text-decoration: none;
 }
 
-footer p a {
-  color: white;
+footer a:hover {
+	text-decoration: underline;
+	color: navy;
+}
+#updated {
+	color: white;
 }
 
-/* footer p last-updated { 
-  font-family: 'Quicksand', Helvetica, sans-serif;
-  font-weight: 300;
-  color: yellow; 
-}  */
+/* header and footer ---------- End */
+
+/* Home Page specific Design --------- Start */
+
+#assignments h2 {
+	border-bottom: 1px solid black;
+	margin-left: .5em;
+}
+#myphoto {
+	margin-top: 1rem;
+	width: 120px;
+	height: 120px;
+}
+#assignments ul li a {
+	text-decoration: none;
+}
+.link {
+	color: blue;
+}
+.link:hover {
+	text-decoration: underline;
+}
+
+/* Home Page specific Design --------- End */
+
+@media print {
+	#myphoto {
+		display: none;
+	}
+	footer a[href]::after {
+		display: block;
+		content: ' (' attr(href) ')';
+	}
+}

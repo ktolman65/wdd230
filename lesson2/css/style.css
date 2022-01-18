@@ -16,7 +16,7 @@ h2 a:hover {
 	background-color: #ecedf1;
 	margin: 15px;
 	width: auto;
-	border-radius: 15px 15px 0 0;
+	border-radius: 15px 15px 15px 15px;
 }
 
 .box h3 {
@@ -50,5 +50,5 @@ h2 a:hover {
 
 header,
 footer {
-	border-radius: 0;
+	border-radius: 15px;
 }

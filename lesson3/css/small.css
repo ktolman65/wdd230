@@ -67,7 +67,7 @@ main
 /* responsive images that may scale down but not larger than original image */
 img
 {
-	max-width: 100%;
+	max-width: 8rem;
 	height: auto;
 }
 

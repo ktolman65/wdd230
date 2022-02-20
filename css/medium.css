@@ -1,42 +1,23 @@
-/* ------------------ Tablet views --------------- */
-
 @media only screen and (min-width: 32.5em) {
-  header,
-  footer,
-  main {
-    max-width: 70vw;
-    margin: auto;
+  header, footer {
+      border-radius: 6px;
   }
 
-  /* check renamed photo */
-  #myphoto {
-    float: right;
-    z-index: 100;
-    margin-top: 40px;
-    box-shadow: 0 0 30px #444;
-    border-radius: 0 10px 0 0;
+  header {
+      grid-template-columns: auto 1fr;
+      grid-gap: 20px;
+      align-items: center;
   }
 
-  h1 {
-    font-size: 2.5rem;
+  body{
+      margin: 1em auto;
   }
 
-  h2 {
-    font-size: 1.5rem;
+  h1{
+      font-size: 2.5rem;
   }
 
-  header,
-  footer {
-    border-radius: 10px;
-  }
-
-  .design-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-  }
-
-  .box {
-    height: 98%;
+  h2{
+      font-size: 1.5rem;
   }
 }

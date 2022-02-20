@@ -1,68 +1,54 @@
-/* establish global settings ------- start */
 :root {
 	--heading-font: 'Frank Ruhl Libre', 'Open-Sans', serif;
 	--paragraph-font: Tahoma, Geneva, sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1, h2, h3, h4, h5, h6 {
 	font-family: var(--heading-font);
 }
+
 p {
 	font-family: var(--paragraph-font);
 }
+
 h1 {
 	font-size: 1.5rem;
 }
+
 h2 {
 	font-size: 1rem;
 }
-h3 {
+
+h3, h4 {
 	font-size: 1rem;
 }
-h4 {
-	font-size: 1rem;
-}
+
 small {
 	font-size: 0.8rem;
 }
 
-/* Start Box Model Fix - first documented by Paul Irish - Start */
-
-html {
-	box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-	box-sizing: inherit;
-}
-
-/* End Box Model Fix - End */
 body {
-	margin: 0;
-	height: 100%;
-	line-height: 1.5;
+	max-width: 600px;
 	font-size: 16px;
 }
-img {
+
+/*img {
 	max-width: 100%;
-}
-/* establish global settings ---------  End */
-/* header and footer ---------- Start */
+}*/
+
 header {
-	margin-top: 10px;
+	display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  /*margin-top: 10px;*/
 }
-header,
-footer {
+
+header, footer {
 	background-color: #5d5c61;
 	padding: 1rem;
 	color: #ffffff;
-	width: 100vw;
-	margin: 0;
+	/*width: 100vw;
+	margin: 0;*/
 	text-align: center;
 }
 
@@ -75,41 +61,42 @@ footer a:hover {
 	text-decoration: underline;
 	color: navy;
 }
+
 #updated {
 	color: white;
 }
 
-/* header and footer ---------- End */
-
 /* Home Page specific Design --------- Start */
-
 #assignments h2 {
 	border-bottom: 1px solid black;
 	margin-left: .5em;
 }
+
 #myphoto {
-	margin-top: 1rem;
+	/*margin-top: 1rem;*/
 	width: 120px;
-	height: 120px;
+	height: auto;
 }
+
 #assignments ul li a {
 	text-decoration: none;
 }
+
 .link {
 	color: blue;
 }
+
 .link:hover {
 	text-decoration: underline;
 }
 
 /* Home Page specific Design --------- End */
-
-@media print {
+/*@media print {
 	#myphoto {
 		display: none;
-	}
-	footer a[href]::after {
+	}*/
+
+	/*footer a[href]::after {
 		display: block;
 		content: ' (' attr(href) ')';
-	}
-}
+	}*/

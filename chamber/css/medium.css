@@ -1,0 +1,159 @@
+@media only screen and (min-width: 34em) {
+	header {
+			font-size: .7em;
+	}
+
+	.logo {
+			width: 75px;
+	}
+
+	.extra {
+			display: initial;
+			font-size: .5em;
+	}
+
+	main {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-column-gap: 10px;
+			font-size: 1em;
+			max-width: 600px;
+			margin: 0 auto 1em auto;
+			grid-row-gap: 1em;
+	}
+
+	.hero{
+			grid-column: 1/4;
+			grid-row: 1/2;
+	}
+
+	.hero h2 {
+			font-size: 2em;
+			padding: 1.5em;
+	}
+
+	.news {
+			grid-column: 1/4;
+			grid-row: 2/3;
+	}
+
+	.join {
+			grid-column: 1/4;
+			grid-row: 4/5;
+			display: initial;
+			display: grid;
+			grid-auto-rows: minmax(min-content, max-content);
+	}
+
+	.join button {
+			color: #221110;
+			background-color: #BF6F7E;
+			padding: 10px;
+			border-radius: 7px;
+			width:75%;
+			margin: .25em auto;
+	}
+
+	.join p {
+			padding: 0 1em 0 .5em;
+			font-weight: normal;
+	}
+
+	.event {
+			grid-column: 1/3;
+			grid-row: 5/6;
+	}
+
+	.weather {
+			grid-column: 3/4;
+			grid-row: 5/6;
+	}
+
+	.spotlight {
+			grid-column: 1/4;
+			grid-row: 3/4;
+			grid: 1fr / 1fr 1fr;
+			grid-column-gap: 5px;
+	}
+
+	.top-footer {
+			display: grid;
+			grid: 1fr / 1fr 1fr;
+			align-items: center;
+	}
+
+	.company {
+			display: grid;
+			grid: 1fr 1fr / 1fr 2fr;
+			text-align: left;
+	}
+
+	.company p {
+			padding-top: .5em;
+			padding-left: 10px;
+	}
+
+	.company h2 {
+			margin-block-end: 0;
+			padding-left: 10px;
+	}
+
+
+	.company img {
+			grid-column: 1/2;
+			grid-row: 1/3;
+			justify-self: end;
+			align-self: center;
+	}
+
+	.contact {
+			align-self: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/*@media only screen and (min-width: 35em) {
+	.logo-img {
+		width: 120px;
+	}
+	.heading h1 {
+		font-size: 1.8em;
+	}
+	/* navigation style for tablet screen size */
+	/*nav button {
+		display: none;
+	}
+	nav ul.hide {
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	nav ul {
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	nav ul li a {
+		padding: 0.8em 1.2em;
+		font-size: 1em;
+	}
+
+	main div {
+		background-color: var(--accent2-color);
+		padding: 1em;
+		border: 2px dotted var(--charcoal);
+	}
+	main div p {
+		color: var(--white);
+	}
+}*/

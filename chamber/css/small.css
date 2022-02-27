@@ -1,17 +1,6 @@
-/* * {
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-} */
-
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 16px;
-}
-
-#banner {
-  display:none;
-  background-color: #F26F63;
-  text-align: center;
-  padding: 2rem;
 }
 
 header {
@@ -19,11 +8,11 @@ header {
   grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
   align-items: center;
   justify-items: center;
-  font-size: .7em;
+  font-size: 0.7em;
   background-color: #011640;
   color: white;
-  padding: .6em;
-  grid-column-gap: .8rem;
+  padding: 0.6em;
+  grid-column-gap: 0.8rem;
 }
 
 .logo {
@@ -56,14 +45,15 @@ button:hover {
 }
 
 nav {
-margin: 0 auto;
-max-width: 760px;
+  margin: 0 auto;
+  max-width: 760px;
 }
+
 .navigation {
-list-style: none;
-padding: 0;
+  list-style: none;
+  padding: 0;
   margin: 0;
-  padding: .5rem;
+  padding: 0.5rem;
   position: absolute;
   width: 100%;
   left: 0;
@@ -73,19 +63,20 @@ padding: 0;
 }
 
 .navigation li {
-display: none;
+  display: none;
 }
 
 .navigation a {
-display: block;
-padding: 0.75rem 2vw;
-text-decoration: none;
-color: white;
-transition: 0.2s;
+  display: block;
+  padding: 0.75rem 2vw;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
 }
 
-nav ul li.active a, .navigation a:hover {
-  background-color: #355B8C;
+nav ul li.active a,
+.navigation a:hover {
+  background-color: #355b8c;
 }
 
 .hidden {
@@ -101,11 +92,21 @@ nav ul li.active a, .navigation a:hover {
   grid-template-columns: 1fr 1fr;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-<ul class="navigation responsive">
-*/
+.social a img {
+  padding: 0.3em;
+}
+
+.logo {
+  width: 75px;
+}
+
+.icon {
+  width: 40px;
+}
+
+
 .responsive li {
-display: block;
+  display: block;
 }
 
 .responsive ul {
@@ -122,17 +123,17 @@ main {
   grid-auto-rows: minmax(min-content, max-content);
   grid-template-columns: 1fr;
   grid-row-gap: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 1em;
 }
 
 main section {
-  background-color: #355B8C40;
+  background-color: #355b8c40;
 }
 
 main section h3 {
   color: white;
-  background-color: #355B8C;
+  background-color: #355b8c;
   font-weight: bold;
   font-size: 20px;
   padding: 8px;
@@ -146,10 +147,43 @@ main section h4, main section p {
 main section p a {
   color: white;
   font-weight: normal;
-  padding: 0 .25em;
+  padding: 0 0.25em;
 }
+
 main section p a:hover {
   color: lightgrey;
+}
+
+
+.hero {
+  display: grid;
+  grid: 1fr 1fr / 1fr 1fr;
+}
+
+.event {
+  padding: 0 1em;
+  background-color: #355b8c;
+  color: white;
+}
+
+.weather, .weather h3 {
+  background-color: #011640;
+  padding: 0.5em;
+}
+
+.news {
+  background-color: #011640;
+  color: white;
+}
+
+.news h3 {
+  padding: 1em;
+  background-color: #011640;
+}
+
+.news p {
+  padding: 0 1em 0 1em;
+  font-weight: lighter;
 }
 
 .spotlight {
@@ -159,7 +193,7 @@ main section p a:hover {
 }
 
 .spotlight div {
-  border: 4px dotted #F26F63;
+  border: 4px dotted #f26f63;
   margin: 0;
 }
 
@@ -176,87 +210,10 @@ main section p a:hover {
   display: none;
 }
 
-.logo {
-  width: 75px;
-}
-
-.icon {
-  width: 40px;
-}
-
-.social a img {
-  padding: .3em;
-}
-
-.hero {
-  display: grid;
-  grid: 1fr 1fr / 1fr 1fr;
-}
-
-.hero img {
-  grid-column: 1/3;
-  grid-row: 1/3;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-}
-
-.hero h2 {
-  grid-column: 1/3;
-  grid-row: 1/2;
-  padding: 1em;
-  color: #ffff;
-  background-color: #02012460;
-  margin: 0;
-  width: fit-content;
-  height: fit-content;
-  font-size: 2em;
-}
-
-.hero button {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  justify-self: right;
-  align-self: end;
-  padding: 10px;
-  border-radius: 7px;
-  margin-bottom: 1.5em;
-  margin-right: 1.5em;
-  font-size: 2em;
-  color: #221110;
-  background-color: #BF6F7E;
-}
-
-.event {
-  padding: 0 1em;
-  background-color: #355B8C;
-  color:white
-}
-
-.weather, .weather h3 {
-  background-color: #011640;
-  padding: .5em;
-}
-
-.news {
-  background-color: #011640;
-  color: white;
-}
-
-.news h3 {
-  padding: 1em;
-  background-color: #011640;;
-}
-
-.news p {
-  padding: 0 1em 0 1em;
-  font-weight: lighter;
-}
-
 footer {
   text-align: center;
   padding: 1em;
-  background-color: #355B8C;
+  background-color: #355b8c;
   color: white;
 }
 
@@ -269,5 +226,5 @@ footer {
 }
 
 .wdd-info {
-  padding: .5rem;
+  padding: 0.5rem;
 }

@@ -1,0 +1,56 @@
+:root {
+	--heading-font: 'Frank Ruhl Libre', 'Open-Sans', serif;
+	--paragraph-font: Tahoma, Geneva, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--heading-font);
+}
+
+p {
+	font-family: var(--paragraph-font);
+}
+
+h1 {
+	font-size: 1.5rem;
+
+}
+h2, h3, h4 {
+	font-size: 1rem;
+}
+
+small {
+	font-size: 0.8rem;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+img {
+	max-width: 100%;
+}
+
+header, footer {
+	background-color: #5d5c61;
+	color: #ffffff;
+	width: 100vw;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: navy;
+}
+
+#updated {
+	color: white;
+}

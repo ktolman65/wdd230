@@ -22,8 +22,8 @@ button.addEventListener('click', function () {
     }
 
     input.focus();
-  }
+}
   else {
       window.alert("This field cannot be blank. Please enter a book and chapter.")
   }
-})
+}

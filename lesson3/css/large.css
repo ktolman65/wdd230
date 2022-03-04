@@ -1,24 +1,24 @@
+<<<<<<< HEAD
 @media only screen and (min-width: 830px) { /*reduces the heading size*/
   body {
 		max-width: 60em;
 		margin: auto;
 	}
 
+=======
+@media only screen and (min-width: 830px) {
+>>>>>>> 9ac3e89b0e93fed9c1a6f500ab57f6920ac6c43e
   header {
     font-size: 1rem;
+    grid-template-columns: 1fr 1fr;
   }
 
   nav {
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
   }
 
-  .logo {
-    width: 100px;
-  }
-
   main {
-    grid: repeat(3, 1fr) / 1fr 2fr 1fr;
     margin: 0.5em auto;
     max-width: 800px;
   }
@@ -37,8 +37,12 @@
     text-align: center;
     border: none;
   }
+<<<<<<< HEAD
 
   .menu {
     display: none;
   }
 }
+=======
+}
+>>>>>>> 9ac3e89b0e93fed9c1a6f500ab57f6920ac6c43e

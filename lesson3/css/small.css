@@ -1,3 +1,166 @@
+<<<<<<< HEAD
+=======
+/*
+:root {
+	--primary-color: #094D92;  /* Yale Blue */
+	--secondary-color: #8BBEB2;  /* Green Sheen */
+	--accent1-color: #E6F9AF;  /* Key Lime */
+	--accent2-color: #E88D67;  /* Copper Crayola */
+	--charcoal: #3a3a3a;  /* 3a3a3a  text color to reduce eye strain */
+	--white: #f7f8fc;  /* off-white color to reduce eye strain */
+	--heading-font: 'EB Garamond', serif;
+	--paragraph-font: Tahoma, sans-serif;
+}*/
+
+h1, h2, h3 {
+	font-family: 'EB Garamond', serif;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 1.4em;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+h3, h4 {
+	font-size: 1.1em;
+}
+
+p, button, ul, ol {
+	font-size: 0.9em;
+	font-family: Tahoma, sans-serif;
+	line-height: 1.5em;
+	color: #3a3a3a;
+}
+
+.center {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header, footer {
+	text-align: center;
+}
+
+main {
+	padding: 0em 1em;
+}
+
+img {
+	max-width: 8rem;
+	height: auto;
+}
+
+footer {
+	padding: 1em;
+}
+
+.hidden {
+	border: 0;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+nav {
+	margin: 0px;
+}
+
+nav ul {
+	background-color: #094D92;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style: none;
+}
+
+nav ul li {
+	text-align: center;
+}
+
+nav>ul>li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	color: #f7f8fc;
+}
+
+nav>ul>li a:hover {
+	background-color: #8BBEB2;
+}
+
+.current {
+	text-decoration: underline;
+}
+
+.colors {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.colors th {
+	background-color: #3a3a3a;
+	color: #f7f8fc;
+}
+
+.colors td {
+	width: 25%;
+	height: 3em;
+}
+
+.primary {
+	background-color: #094D92;
+	color: #f7f8fc;
+}
+
+.secondary {
+	background-color: #8BBEB2;
+	color: #3a3a3a;
+}
+
+.accent1 {
+	background-color: #E6F9AF;
+	color: #3a3a3a;
+}
+
+.accent2 {
+	background-color: #E88D67;
+	color: #3a3a3a;
+}
+
+.charcoal {
+	background-color: #3a3a3a;
+	color: #f7f8fc;
+}
+
+.white {
+	background-color: #f7f8fc;
+	color: #3a3a3a;
+}
+
+.profile_photo {
+	width: 20vw;
+	height: auto;
+}
+
+
+/*
+>>>>>>> 9ac3e89b0e93fed9c1a6f500ab57f6920ac6c43e
 body {
   font-family: "Outfit", sans-serif;
   font-size: 16px;
@@ -139,6 +302,65 @@ main section p a:hover {
   color: lightgrey;
 }
 
+<<<<<<< HEAD
+=======
+
+.hero {
+  display: grid;
+  grid: 1fr 1fr / 1fr 1fr;
+}
+
+.event {
+  padding: 0 1em;
+  background-color: #355b8c;
+  color: white;
+}
+
+.weather, .weather h3 {
+  background-color: #011640;
+  padding: 0.5em;
+}
+
+.news {
+  background-color: #011640;
+  color: white;
+}
+
+.news h3 {
+  padding: 1em;
+  background-color: #011640;
+}
+
+.news p {
+  padding: 0 1em 0 1em;
+  font-weight: lighter;
+}
+
+.spotlight {
+  display: grid;
+  grid: 1fr 1fr / 1fr;
+  grid-row-gap: 1em;
+}
+
+.spotlight div {
+  border: 4px dotted #f26f63;
+  margin: 0;
+}
+
+.spotlight div p {
+  color: black;
+  font-weight: normal;
+}
+
+#spotlight3 {
+  display: none;
+}
+
+.join {
+  display: none;
+}
+
+>>>>>>> 9ac3e89b0e93fed9c1a6f500ab57f6920ac6c43e
 footer {
   text-align: center;
   padding: 1em;
@@ -157,6 +379,7 @@ footer {
 .wdd-info {
   padding: 0.5rem;
 }
+<<<<<<< HEAD
 
 /*
 :root {
@@ -317,4 +540,7 @@ nav>ul>li a:hover {
 	height: auto;
 }*/
 
+=======
+>>>>>>> 9ac3e89b0e93fed9c1a6f500ab57f6920ac6c43e
 
+*/

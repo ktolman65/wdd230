@@ -1,43 +1,4 @@
-/* Design changes based on screen sizes --------- Start */
-@media screen and (min-width: 32.5em) {
-	header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-
-	nav ul {
-		display: flex;
-		margin: 0;
-	}
-
-	nav ul li {
-		align-self: flex-start;
-	}
-
-	nav ul li a {
-		padding: 1em;
-	}
-
-	h1 {
-		font-size: 1.6em;
-	}
-
-	h2 {
-		font-size: 1.4em;
-	}
-
-	h3, h4 {
-		font-size: 1.2em;
-	}
-
-	p, ul {
-		font-size: 1em;
-	}
-}
-
-/*@media only screen and (min-width: 34em) {
+@media only screen and (min-width: 34em) {
 	header {
 			font-size: .7em;
 	}
@@ -88,5 +49,43 @@
 
 	.contact {
 			align-self: center;
+	}
+}
+
+/*
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	nav ul {
+		display: flex;
+		margin: 0;
+	}
+
+	nav ul li {
+		align-self: flex-start;
+	}
+
+	nav ul li a {
+		padding: 1em;
+	}
+
+	h1 {
+		font-size: 1.6em;
+	}
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	h3, h4 {
+		font-size: 1.2em;
+	}
+
+	p, ul {
+		font-size: 1em;
 	}
 }*/

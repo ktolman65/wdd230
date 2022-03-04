@@ -4,15 +4,14 @@
 	--secondary-color: #8BBEB2;  /* Green Sheen */
 	--accent1-color: #E6F9AF;  /* Key Lime */
 	--accent2-color: #E88D67;  /* Copper Crayola */
-	/* --accent3-color: #BB999C; /* Tuscany */
 	--charcoal: #3a3a3a;  /* 3a3a3a  text color to reduce eye strain */
 	--white: #f7f8fc;  /* off-white color to reduce eye strain */
 	--heading-font: 'EB Garamond', serif;
 	--paragraph-font: Tahoma, sans-serif;
-}
+}*/
 
 h1, h2, h3 {
-	font-family: var(--heading-font);
+	font-family: 'EB Garamond', serif;
 	line-height: 1.5em;
 }
 
@@ -30,9 +29,9 @@ h3, h4 {
 
 p, button, ul, ol {
 	font-size: 0.9em;
-	font-family: var(--paragraph-font);
+	font-family: Tahoma, sans-serif;
 	line-height: 1.5em;
-	color: var(--charcoal);
+	color: #3a3a3a;
 }
 
 .center {
@@ -52,7 +51,6 @@ main {
 	padding: 0em 1em;
 }
 
-/* responsive images that may scale down but not larger than original image */
 img {
 	max-width: 8rem;
 	height: auto;
@@ -79,7 +77,7 @@ nav {
 }
 
 nav ul {
-	background-color: var(--primary-color);
+	background-color: #094D92;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -96,18 +94,17 @@ nav>ul>li a {
 	font-weight: bold;
 	padding-top: 0.8em;
 	padding-bottom: 0.8em;
-	color: var(--white);
+	color: #f7f8fc;
 }
 
 nav>ul>li a:hover {
-	background-color: var(--secondary-color);
+	background-color: #8BBEB2;
 }
 
 .current {
 	text-decoration: underline;
 }
 
-/* START  ------ styling for color-scheme page ------  */
 .colors {
 	width: 100%;
 	margin: auto;
@@ -115,8 +112,8 @@ nav>ul>li a:hover {
 }
 
 .colors th {
-	background-color: var(--charcoal);
-	color: var(--white);
+	background-color: #3a3a3a;
+	color: #f7f8fc;
 }
 
 .colors td {
@@ -125,48 +122,39 @@ nav>ul>li a:hover {
 }
 
 .primary {
-	background-color: var(--primary-color);
-	color: var(--white);
+	background-color: #094D92;
+	color: #f7f8fc;
 }
 
 .secondary {
-	background-color: var(--secondary-color);
-	color: var(--charcoal);
+	background-color: #8BBEB2;
+	color: #3a3a3a;
 }
 
 .accent1 {
-	background-color: var(--accent1-color);
-	color: var(--charcoal);
+	background-color: #E6F9AF;
+	color: #3a3a3a;
 }
 
 .accent2 {
-	background-color: var(--accent2-color);
-	color: var(--charcoal);
+	background-color: #E88D67;
+	color: #3a3a3a;
 }
 
 .charcoal {
-	background-color: var(--charcoal);
-	color: var(--white);
+	background-color: #3a3a3a;
+	color: #f7f8fc;
 }
 
 .white {
-	background-color: var(--white);
-	color: var(--charcoal);
+	background-color: #f7f8fc;
+	color: #3a3a3a;
 }
 
-/* END ------ styling for color-scheme page ------  */
-
-/* START  ------ styling for audience page ------  */
 .profile_photo {
 	width: 20vw;
 	height: auto;
 }
-
-
-
-
-
-
 
 
 /*
@@ -327,7 +315,60 @@ main section p a:hover {
 }
 
 
+.hero {
+  display: grid;
+  grid: 1fr 1fr / 1fr 1fr;
+}
 
+.event {
+  padding: 0 1em;
+  background-color: #355b8c;
+  color: white;
+}
+
+.weather, .weather h3 {
+  background-color: #011640;
+  padding: 0.5em;
+}
+
+.news {
+  background-color: #011640;
+  color: white;
+}
+
+.news h3 {
+  padding: 1em;
+  background-color: #011640;
+}
+
+.news p {
+  padding: 0 1em 0 1em;
+  font-weight: lighter;
+}
+
+.spotlight {
+  display: grid;
+  grid: 1fr 1fr / 1fr;
+  grid-row-gap: 1em;
+}
+
+.spotlight div {
+  border: 4px dotted #f26f63;
+  margin: 0;
+}
+
+.spotlight div p {
+  color: black;
+  font-weight: normal;
+}
+
+#spotlight3 {
+  display: none;
+}
+
+.join {
+  display: none;
+}
 
 footer {
   text-align: center;
@@ -346,6 +387,6 @@ footer {
 
 .wdd-info {
   padding: 0.5rem;
-}*/
+}
 
-
+*/

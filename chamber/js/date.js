@@ -5,7 +5,7 @@ const year = d.getFullYear();
 
 // using getElementById
 document.querySelector("#currentyear").textContent = year;
-document.getElementById("lastupdated").textContent = `Last Updated: ${document.lastModified}`;
+document.getElementById("lastupdated").textContent = `Last Modification: ${document.lastModified}`;
 
 // element to output to
 const datefieldUK = document.querySelector(".date");

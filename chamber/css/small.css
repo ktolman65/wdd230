@@ -74,7 +74,13 @@ nav {
   transition: 0.2s;
 }
 
-nav ul li.active a,
+nav ul li.active a {
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: .125em;
+  text-underline-offset: 1.5px;
+  background-color: #000000;
+}
+
 .navigation a:hover {
   background-color: #355b8c;
 }

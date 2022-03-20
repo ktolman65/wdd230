@@ -1,98 +1,154 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Montpelier Chamber of Commerce" />
+    <title>MCC - Montpelier Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Montserrat:wght@400;500&display=swap" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Montpelier Idaho Chamber of Commerce">
-  <title> MICC - Montpelier ID Chamber of Commerce </title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/small.css">
-  <link rel="stylesheet" href="css/medium.css">
-  <link rel="stylesheet" href="css/large.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;600;900&display=swap">
-</head>
+  <body>
 
-<body>
-  <header>
-    <img src="images/montpelier_id_logo.jpg" alt="MICC Logo" class="logo">
-    <h1> MICC <span class="extra"><br> Montpelier ID<br>Chamber of Commerce </span></h1>
-    <div class="social">
-      <a href="https://facebook.com" target="_blank"><img src="images/facebook_logo.svg" alt="Facebook logo"
-          class="icon"></a>
-      <a href="https://linkedin.com" target="_blank"><img src="images/linkedin_logo.svg" alt="LinkedIn logo"
-          class="icon"></a>
-    </div>
-    <nav>
-      <button class="menu"><span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton"
-          class="hidden toggle-btn"> X </span></button>
-
-      <ul class="navigation">
-        <li class="active"><a href="index.html"> Home </a></li>
-        <li><a href="discover.html"> Discover </a></li>
-        <li><a href="directory.html"> Directory </a></li>
-        <li><a href="join.html"> Join </a></li>
-        <li><a href="contact.html"> Contact </a></li>
-      </ul>
-    </nav>
-    <div class="date"></div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <h3>Hero with site name and call to action</h3>
-    </section>
-    <section class="event">
-      <h3>Event</h3>
-    </section>
-    <section class="weather">
-      <h3>Weather</h3>
-    </section>
-    <section class="join">
-      <h3>Join</h3>
-    </section>
-    <section class="news">
-      <h3>News Release</h3>
-    </section>
-    <section class="spotlight">
-      <div>
-        <h3>Spotlight #1</h3>
+    <header>
+      <img src="images/montpelier_logo.png" alt="MCC Logo" class="logo" />
+      <h1>MCC<span class="extra"><br>Montpelier<br>Chamber of Commerce</span></h1>
+      <nav>
+        <button class="menu">
+          <span id="ham" class="toggle-btn"> &#9776; </span>
+          <span id="xbutton" class="hidden toggle-btn"> X </span>
+        </button>
+        <ul class="navigation">
+          <li class="active"><a href="index.html"> Home </a></li>
+          <li><a href="discover.html"> Discover </a></li>
+          <li><a href="directory.html"> Directory </a></li>
+          <li><a href="join.html"> Join </a></li>
+          <li><a href="contact.html"> Contact </a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"><img src="images/facebook_logo.svg" alt="Facebook logo" class="icon"></a>
+        <a href="https://linkedin.com" target="_blank"><img src="images/linkedin_logo.svg" alt="LinkedIn logo" class="icon"></a>
       </div>
-      <div>
-        <h3>Spotlight #2</h3>
-      </div>
-      <div>
-        <h3>Spotlight #3</h3>
-      </div>
-    </section>
-  </main>
+      <div class="date"></div>
+    </header>
 
-  <footer>
-    <div class="top-footer">
-      <section class="company">
-        <img src="images/montpelier_id_logo.jpg" alt="MICC Logo" class="logo">
-        <h2> Montpelier ID<br>Chamber of Commerce </h2>
-        <p> 534 Washington St
-          <br>Montpelier, ID 83254 </p>
+    <main>
+      <section class="hero">
+        <picture>
+          <source media="(max-width:450px)" srcset="images/hero_375x335.png" />
+          <source media="(max-width:750px)" srcset="images/hero_750x672.png" />
+          <source media="(max-width:1600px)" srcset="images/hero_700x627.png" />
+          <img src="images/hero_375x335.png"
+            alt="Welcome to Montpelier" />
+        </picture>
+        <div>
+          <h1 class="headerTitle">Montpelier Chamber of Commerce</h1>
+          <div class="moto"><span class="extra">Working Together to Succeed.</span></div>
+        </div>
       </section>
-      <div class="contact">
-        <p class="contact-info"> micc@gmail.com </p>
-        <p class="contact-info"> (208) 234-5678 </p>
-        <p class="contact-info"> <a
-            href="https://www.google.com/maps/place/Montpelier+City+Hall/@42.3182405,-111.3068489,17z/data=!4m13!1m7!3m6!1s0x875432662dffe9ab:0xd1a33fc83fd7ca6f!2sMontpelier,+ID+83254!3b1!8m2!3d42.3221498!4d-111.2977044!3m4!1s0x875432136eef2dff:0xf803426377147a33!8m2!3d42.3179742!4d-111.3020172?hl=en"
-            target="blank"> &Rarr; Location Map</a></p>
-      </div>
-    </div>
-    <hr>
-    <div class="wdd-info">&copy;<span id="currentyear"></span> Montpelier Chamber | Ken Tolman | WDD 230 Project |
-      <span id="lastupdated"></span>
-    </div>
-  </footer>
-  <script src="js/date.js"></script>
-  <script src="js/menu.js"></script>
-</body>
 
+      <section class="event">
+        <h3>Upcoming Events</h3>
+        <p>
+          Spring Clean-up is coming!!! <br /><br />
+          Saturday, April 16th <br /><br />
+          Trash dumpsters will be placed at various sites through town. Contact
+          Montpelier City for more details.
+        </p>
+      </section>
+
+      <section class="weather">
+        <h3>Weather</h3>
+        <div class="currentweather"></div>
+        <p><span id="description"></span></p>
+        <div class="wind">
+          <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+          <p>Wind Chill: <span id="windChill"></span></p>
+        </div>
+      </section>
+
+      <section class="join">
+        <h3>Join</h3>
+        <p>Strengthening our community and our businesses.</p>
+      </section>
+
+      <section class="news">
+        <h3>Local News</h3>
+        <ol>
+          <li>City Council Meeting is on the 3rd Thursday of each month.</li>
+          <br />
+          <li>
+            CPR training will be held at the Wilson Community Center on
+            Wednesday, March 23rd.
+          </li>
+          <br />
+          <li>
+            The Bear Lake Farmers Market will be held on the second Saturday of
+            each month starting in April.
+          </li>
+        </ol>
+      </section>
+
+      <section class="spotlight1">
+        <h3>Jensen-Wood Motor Co.</h3>
+        <p>
+          With a consistent supply of high quality new and pre-owned vehicles by
+          Chrysler, Dodge, Jeep and Ram, Jensen-Wood Motor Company offers
+          customers tons of choice; we have something for everyone.
+        </p>
+      </section>
+
+      <section class="spotlight2">
+        <h3>Blackstone Dental</h3>
+        <p>
+          At Blackstone Dental, our doctors and staff pride themselves on
+          providing quality, long lasting solutions to help maintain your smile.
+        </p>
+      </section>
+
+      <section class="spotlight3">
+        <h3>Swig</h3>
+        <p>
+          Swig has been Home of the Dirty Soda since 2010. Specializing in fast
+          service and delicious drinks and sweets. Thanks for choosing Swig!
+        </p>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="top-footer">
+        <section class="company">
+          <img src="images/montpelier_logo.png" alt="MCC Logo" class="logo" />
+          <h2>Montpelier<br>Chamber of Commerce</h2>
+          <p>534 Washington St<br>Montpelier, ID 83254</p>
+        </section>
+        <div class="contact">
+          <p class="contact-info">mcc@gmail.com</p>
+          <p class="contact-info">(208) 234-5678</p>
+          <p class="contact-info">
+            <a href="https://www.google.com/maps/place/Montpelier+City+Hall/@42.3182405,-111.3068489,17z/data=!4m13!1m7!3m6!1s0x875432662dffe9ab:0xd1a33fc83fd7ca6f!2sMontpelier,+ID+83254!3b1!8m2!3d42.3221498!4d-111.2977044!3m4!1s0x875432136eef2dff:0xf803426377147a33!8m2!3d42.3179742!4d-111.3020172?hl=en"
+              target="blank" >&Rarr; Location Map</a>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="class-info">&copy;<span id="currentyear"></span> Montpelier Chamber | Ken Tolman | WDD 230 Project | <span id="lastupdated"></span>
+      </div>
+    </footer>
+
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/weather.js"></script>
+  
+  </body>
+  
 </html>

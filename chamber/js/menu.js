@@ -9,7 +9,6 @@ menubutton.addEventListener('click', () => {
     ham.classList.toggle('hidden');
 }, false);
 
-// To solve the mid resizing issue with responsive class on
 window.onresize = () => {
     if (window.innerWidth > 760) {
         mainnav.classList.remove('responsive');
@@ -17,22 +16,3 @@ window.onresize = () => {
         ham.classList.remove("hidden");
     }
 };
-
-
-
-
-
-
-
-
-
-/*
-function toggleMenu() {
-	document.getElementById('topnav').classList.toggle('hide');
-}
-function toggleOff() {
-	if (window.innerWidth > 500) {
-		document.getElementById('topnav').classList.remove('hide');
-	}
-}
-*/

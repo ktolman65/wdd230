@@ -18,19 +18,18 @@
   <body>
 
     <header>
-      <img src="images/montpelier_logo.png" alt="MCC Logo" class="logo" />
+      <img src="images/montpelier_logo.jpg" alt="MCC Logo" class="logo" />
       <h1>MCC<span class="extra"><br>Montpelier<br>Chamber of Commerce</span></h1>
       <nav>
         <button class="menu">
-          <span id="ham" class="toggle-btn"> &#9776; </span>
-          <span id="xbutton" class="hidden toggle-btn"> X </span>
+          <span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn"> X </span>
         </button>
         <ul class="navigation">
-          <li class="active"><a href="index.html"> Home </a></li>
+          <li><a href="index.html"> Home </a></li>
           <li><a href="discover.html"> Discover </a></li>
           <li><a href="directory.html"> Directory </a></li>
           <li><a href="join.html"> Join </a></li>
-          <li><a href="contact.html"> Contact </a></li>
+          <li class="active"><a href="contact.html"> Contact </a></li>
         </ul>
       </nav>
       <div class="social">
@@ -40,18 +39,20 @@
       <div class="date"></div>
     </header>
 
-    <main>
+    <main class="home">
       <section class="hero">
         <picture>
-          <source media="(max-width:450px)" srcset="images/hero_375x335.png" />
-          <source media="(max-width:750px)" srcset="images/hero_750x672.png" />
-          <source media="(max-width:1600px)" srcset="images/hero_700x627.png" />
-          <img src="images/hero_375x335.png"
-            alt="Welcome to Montpelier" />
+          <source media="(max-width: 510px)" srcset="images/welcome_520x467.jpg" />
+          <source media="(max-width: 1010px)" srcset="images/welcome_1020x915.jpg" />
+          <source media="(max-width: 1500px)" srcset="images/welcome_1020x915.jpg" />
+          <!--<source media="(max-width: 1500px)" srcset="images/welcome_1550x1391.jpg" />-->
+          <img src="images/welcome_520x467.jpg" alt="Welcome to Montpelier" />
         </picture>
         <div>
           <h2 class="headerTitle">Montpelier Chamber of Commerce</h2>
-          <div class="moto"><span class="extra">Working Together to Succeed.</span></div>
+          <div class="moto"><span class="small">Working Together to Succeed.
+            </span>
+          </div>
         </div>
       </section>
 
@@ -75,8 +76,7 @@
         </div>
       </section>
 
-      <section class="join">
-        <h3>Join</h3>
+      <section class="join">        <h3>Join</h3>
         <p>Strengthening our community and our businesses.</p>
       </section>
 
@@ -109,20 +109,21 @@
         </p>
       </section>
 
-      <section class="spotlight3">
+      <span class="small">
+        <section class="spotlight3">
         <h3>Swig</h3>
         <p>
           Swig has been Home of the Dirty Soda since 2010. Specializing in fast
           service and delicious drinks and sweets. Thanks for choosing Swig!
         </p>
-      </section>
+      </section></span>
 
     </main>
 
     <footer>
       <div class="top-footer">
         <section class="company">
-          <img src="images/montpelier_logo.png" alt="MCC Logo" class="logo" />
+          <img src="images/montpelier_logo.jpg" alt="MCC Logo" class="logo" />
           <h2>Montpelier<br>Chamber of Commerce</h2>
           <p>534 Washington St<br>Montpelier, ID 83254</p>
         </section>

@@ -154,6 +154,7 @@ button:hover, .button:hover {
 	margin-top: -10px;
 	color: white;
 	text-shadow: var(--dark-sienna) 0.1em 0.1em 0.2em;
+	text-align: center;
 }
 
 

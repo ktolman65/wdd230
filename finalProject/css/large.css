@@ -1,0 +1,8 @@
+@media (min-width: 62.5em) {
+	.header-title {
+		margin-top: -170px;
+	}
+	main {
+		margin-top: 130px;
+	}
+}

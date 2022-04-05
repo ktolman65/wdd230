@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Templeinn.com | Find convenient Inns and Suites that specialize in the needs of the local temple patrons. Compare services, deals, offers and read unbiased reviews." />
+		<title>Templeinn.com - Providing specialized services and accomodations for temple patrons as well as the everyday traveler.</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/small.css" />
+		<link rel="stylesheet" href="css/medium.css" />
+		<link rel="stylesheet" href="css/large.css" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav class="navbar">
+			<div class="logo">
+				<figure>
+					<a href="index.html">
+						<img
+							src="images/tis_logo_300px.png"
+							alt="Temple Inn & Suites Logo"
+							srcset="
+								images/tis_logo_small.png  1x,
+								images/tis_logo_medium.png 2x,
+								images/tis_logo_large.png  3x" /></a>
+				</figure>
+			</div>
+			<button class="navButton" onclick="toggleMenu()">&#9776; Menu</button>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="temples.html">Temples</a></li>
+					<li class="active"><a href="reservations.html">Reservations</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				
+				</ul>
+			</div>
+		</nav>
+
+		<header>
+			<section>
+				<picture>
+					<source media="(max-width:521px)" srcset="images/temple_header_525.jpg" />
+					<source media="(max-width:1023px)" srcset="images/temple_header_1010.jpg" />
+					<source media="(max-width:1600px)" srcset="images/temple_header_2580.png" />
+					<img src="images/temple_header_2580.png" alt="View of the Salt Lake City Temple with Hotel." />
+				</picture>
+				<div>
+					<h1 class="header-title">Temple Inn & Suites</h1>
+					<div class="moto">Providing services and ammenities to make your stay extra special.</div>
+				</div>
+			</section>
+		</header>
+
+		<main>
+			<!--from ( Sample - final project/index.html - remaining.txt )-->
+		</main>
+
+		<footer>
+			<address>
+				<h2>Temple Inn & Suites</h2>
+				4800 Montgomery Ln #300, Bethesda, MD 20814<br />
+				Telephone: (301) 555-8547<br />
+				<!--<a href="https://goo.gl/maps/oo79VLDWZqmrECiM7" target="_blank">Location Map</a>-->
+			</address>
+			<div class="connect">
+				<h4>Let's Connect</h4>
+				info@templeinn.com<br />
+				www.templeinn.com<br /><br />
+				<a target="_blank" href="https://www.twitter.com">
+					<img class="social" alt="Twitter" src="images/twitter_logo_48px.png" />
+				</a>
+				<a target="_blank" href="https://www.linkedin.com">
+					<img class="social" alt="LinkedIn" src="images/linkedin_logo_48px.png" />
+				</a>
+				<a target="_blank" href="https://www.instagram.com">
+					<img class="social" alt="Instagram" src="images/instagram_logo_48px.png" />
+				</a>
+			</div>
+			<div class="update">Last Updated: <span id="updated"></span></div>
+			<div class="copy-right">&copy; Copyright <span id="currentYear"></span></div>
+		</footer>
+		<script src="js/script.js"></script>
+		<script src="js/weather.js"></script>
+	</body>
+</html>

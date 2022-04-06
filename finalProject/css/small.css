@@ -180,6 +180,12 @@ address {
 	margin-top: 7px;
 	text-align: center;
 }
+.map {
+  grid-area: map;
+	margin-top: 7px;
+	align-items: center;
+	text-align: center;
+}
 .copy-right {
 	grid-area: copy-right;
 	margin-top: 7px;
@@ -189,6 +195,14 @@ address {
 	grid-area: connect;
 	margin-top: 7px;
 	margin-left: 20px;
+}
+.connect a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+.connect a:hover {
+	text-decoration: underline;
+	color:  var(--light-cornflower-blue);
 }
 .social {
 	width: 30px;

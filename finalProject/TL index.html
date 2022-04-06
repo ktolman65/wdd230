@@ -1,0 +1,129 @@
+		<input type="button" value="Hide Weather Alert" id="alertBtn" onclick="weatherAlert()" />
+
+		<div id="weatherAlert">
+			<span id="alert"></span>
+			<span id="alertDescription"></span>
+		</div>
+
+		<main class="home">
+			<section class="purpose">
+				<h2>Duvall Chamber of Commerce Purpose</h2>
+				<p>
+					The Duvall Chamber promotes and supports our Member businesses and organizations, creating
+					opportunity, economic growth, and community prosperity. The Chamber partners with our Members to
+					support our Duvall and Valley business community and neighbors' prosperity through education,
+					connection, and community events and programs.
+				</p>
+			</section>
+
+			<section class="becomeMember">
+				<h2>
+					How to Become a Member
+					<button class="submitButton white" onclick="window.location.href='join.html';">Join Today</button>
+				</h2>
+
+				<p>
+					The Duvall Chamber of Commerce is successful because of the active investment of its membership
+					base. Our members receive access to discounted insurance plans, including healthcare, dental, and
+					vision, with life insurance options. We invite you to join us. Membership provides a brilliant
+					avenue for connecting with others across many different industries. Whether you are a new business
+					in the area, or an established pillar of our community, we work to ignite opportunities for
+					everyone.
+				</p>
+			</section>
+
+			<aside id="weatherSummary">
+				<h3 class="weatherHeader">Weather Summary</h3>
+				<div class="bacon">
+					<hr />
+				</div>
+				<div class="weatherTitle1">Currently:</div>
+				<div><span class="weatherData1" id="descript"></span></div>
+				<div class="weatherTitle2">Temperature:&nbsp;</div>
+				<div><span class="weatherData2" id="current-temp"></span> &#8457;</div>
+				<div class="weatherTitle3">Humidity:&nbsp;</div>
+				<div><span class="weatherData3" id="humidity"></span>&#37;</div>
+			</aside>
+
+			<aside class="events">
+				<h2>Events</h2>
+				<div class="bacon">
+					<hr />
+				</div>
+				<p>Duvall Chamber - Touch Base</p>
+				<ul>
+					<li class="indent">Tue Apr 20 2021</li>
+					<li class="indent">10:00am PST - 11:00am PST Zoom!</li>
+				</ul>
+			</aside>
+			<aside class="businessHighlight">
+				<h2>Local Business</h2>
+				<div class="bacon">
+					<hr />
+				</div>
+				<div class="card">
+					<img class="logo" src="images/zaz_logo.png" alt="Zazynia Restaurant" />
+					<div class="card-container">
+						<h4><b>Zazynia Restaurant</b></h4>
+						<p>Great Family Dining!</p>
+						<address><small>15410 Main St NE, Ste. D., Duvall, WA 98019</small></address>
+					</div>
+				</div>
+				<div class="card">
+					<img class="logo" src="images/coldwell_logo.png" alt="Coldwell Realator" />
+					<div class="card-container">
+						<h4><b>Coldwell Banker Bain</b></h4>
+						<p>Your Real Estate Experts!</p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="logo" src="images/amonos.png" alt="Amonos Restaurant" />
+					<div class="card-container">
+						<h4>Amonos Restaurant</h4>
+						<p>Great Family Dining!</p>
+					</div>
+				</div>
+			</aside>
+
+			<aside class="forecast">
+				<h3 class="header">3 Day Forecast</h3>
+				<div class="bacon">
+					<hr />
+				</div>
+				<table>
+					<tr>
+						<th><span id="day1"></span></th>
+						<th><span id="day2"></span></th>
+						<th><span id="day3"></span></th>
+					</tr>
+					<tr>
+						<td>
+							<img
+								id="icon1"
+								src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+								alt="unknown"
+							/>
+						</td>
+						<td>
+							<img
+								id="icon2"
+								src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+								alt="unknown"
+							/>
+						</td>
+						<td>
+							<img
+								id="icon3"
+								src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+								alt="unknown"
+							/>
+						</td>
+					</tr>
+					<tr>
+						<td><span id="forecast1"></span>&#8457;</td>
+						<td><span id="forecast2"></span>&#8457;</td>
+						<td><span id="forecast3"></span>&#8457;</td>
+					</tr>
+				</table>
+			</aside>
+		</main>

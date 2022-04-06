@@ -46,10 +46,11 @@
 
 	footer {
 		margin-top: 7px;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+
 		grid-template-areas:
-			'address connect'
-			'update copy-right';
+			'address map connect'
+			'update map copy-right';
 	}
 
 	.connect h4 {

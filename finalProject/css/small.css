@@ -133,7 +133,7 @@ button:hover, .button:hover {
 .navbar ul li a:hover {
 	background-color: var(--light-cornflower-blue);
 	border-radius: 25px;
-	color: #EEEEEE;
+	color: #000000;
 }
 .navbar-links.active {
 	display: flex;

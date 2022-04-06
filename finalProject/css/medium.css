@@ -2,19 +2,55 @@
 	body {
 		font-size: 17px;
 	}
-
 	main {
 		margin-top: 70px;
 	}
 
-	.header-title {
+	#alertBtn {
+		margin-top: 70px;
+	}
+
+	.headerTitle {
 		margin-top: -120px;
 		text-align: center;
 	}
-
 	.moto {
 		text-align: center;
 	}
+	.home {
+		margin-top: -10px;
+		grid-template-areas:
+			'hero hero'
+			'businessHighlight purpose'
+			'businessHighlight becomeMember'
+			'weather events'
+			'forecast events';
+		gap: 10px;
+		padding: 1em;
+	}
+	.hero-container {
+		grid-area: hero;
+	}
+
+	.purpose {
+		grid-area: purpose;
+	}
+	.becomeMember {
+		grid-area: becomeMember;
+	}
+	.events {
+		grid-area: events;
+	}
+	#weatherSummary {
+		grid-area: weather;
+	}
+	.forecast {
+		grid-area: forecast;
+	}
+	.businessHighlight {
+		grid-area: businessHighlight;
+	}
+
 
 	
 	/* navigation */

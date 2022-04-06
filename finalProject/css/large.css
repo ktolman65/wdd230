@@ -1,8 +1,24 @@
 @media (min-width: 62.5em) {
-	.header-title {
+	.headerTitle {
 		margin-top: -170px;
 	}
 	main {
 		margin-top: 130px;
+	}
+	#weatherAlert {
+		margin-top: 20px;
+	}
+	#alertBtn {
+		margin-top: 120px;
+	}
+	.home {
+		margin-top: -20px;
+		grid-template-columns: 1fr 2fr 1fr;
+		gap: 20px;
+		grid-template-areas:
+			'hero hero hero'
+			'events purpose businessHighlight'
+			'weather becomeMember businessHighlight'
+			'forecast becomeMember businessHighlight';
 	}
 }

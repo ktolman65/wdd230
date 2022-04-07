@@ -6,55 +6,16 @@
 		margin-top: 70px;
 	}
 
-	#alertBtn {
-		margin-top: 70px;
-	}
-
-	.headerTitle {
+	.header-title {
 		margin-top: -120px;
 		text-align: center;
 	}
 	.moto {
 		text-align: center;
 	}
-	.home {
-		margin-top: -10px;
-		grid-template-areas:
-			'hero hero'
-			'businessHighlight purpose'
-			'businessHighlight becomeMember'
-			'weather events'
-			'forecast events';
-		gap: 10px;
-		padding: 1em;
-	}
-	.hero-container {
-		grid-area: hero;
-	}
-
-	.purpose {
-		grid-area: purpose;
-	}
-	.becomeMember {
-		grid-area: becomeMember;
-	}
-	.events {
-		grid-area: events;
-	}
-	#weatherSummary {
-		grid-area: weather;
-	}
-	.forecast {
-		grid-area: forecast;
-	}
-	.businessHighlight {
-		grid-area: businessHighlight;
-	}
-
-
-	
+		
 	/* navigation */
-	.navButton {
+	.nav-button {
 		display: none;
 	}
 	.logo {
@@ -83,12 +44,10 @@
 	footer {
 		margin-top: 7px;
 		grid-template-columns: 1fr 1fr 1fr;
-
 		grid-template-areas:
 			'address map connect'
 			'update map copy-right';
 	}
-
 	.connect h4 {
 		margin-top: -3px;
 	}

@@ -4,8 +4,7 @@
     max-width: 80vw;
   }
 
-  header,
-  footer {
+  header, footer {
     width: 80vw;
     margin: auto;
     border-radius: 1em;

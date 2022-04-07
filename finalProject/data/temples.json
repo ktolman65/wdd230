@@ -1,0 +1,82 @@
+{
+  "temples":[
+    {
+      "name":"Atlanta Georgia Temple",
+      "status":"Phase 3",
+      "address":"6450 Barfield Rd NE",
+      "city":"Sandy Springs GA United States",
+      "phone":"(1) 770-393-3698",
+      "clothing":"No clothing rental",
+      "housing":"No patron housing available",
+      "distribution":"Distribution center nearby",
+      "announced":"2 April 1980",
+      "dedicated":"1 June 1983",
+      "imageurl":"images/atlanta_temple.jpg"
+    },
+    {
+      "name":"Kona Hawaii Temple",
+      "status":"Returning to normal operations",
+      "address":"75-230 Kalani St",
+      "city":"Kailua-Kona HI United States",
+      "phone":"(1) 808-331-8504",
+      "clothing":"No clothing rental available",
+      "housing":"No patron housing available",
+      "distribution":"No distribution center nearby",
+      "announced":"7 May 1998",
+      "dedicated":"13 March 1999",
+      "imageurl":"images/kona_temple.jpg"
+    },
+    {
+      "name":"London England Temple",
+      "status":"Phase 3",
+      "address":"West Park Rd, Newchapel",
+      "city":"Surrey England United Kingdom",
+      "phone":"(44) 1342 831-400",
+      "clothing":"Clothing rental available",
+      "housing":"Patron housing available",
+      "distribution":"Distribution center nearby",
+      "announced":"10 August 1953",
+      "dedicated":"7 September 1958",
+      "imageurl":"images/london_temple.jpg"
+    },
+    {
+      "name":"Rome Italy Temple",
+      "status":"Phase 3",
+      "address":"Via di Settebagni 376",
+      "city":"Rome Italy",
+      "phone":"(39) 06-9480-5050",
+      "clothing":"Clothing rental available",
+      "housing":"Patron housing available",
+      "distribution":"Distribution center nearby",
+      "announced":"4 October 2008",
+      "dedicated":"10 March 2019",
+      "imageurl":"images/rome_temple.jpg"
+    },
+    {
+      "name":"San Diego California Temple",
+      "status":"Phase 3",
+      "address":"7474 Charmant Dr",
+      "city":"San Diego CA United States",
+      "phone":"(1) 858-622-0991",
+      "clothing":"Clothing rental available",
+      "housing":"No patron housing available",
+      "distribution":"Distribution center nearby",
+      "announced":"7 April 1984",
+      "dedicated":"25 April 1993",
+      "imageurl":"images/san_diego_temple.jpg"
+    },
+    {
+      "name":"Tokyo Japan Temple",
+      "status":"Closed during renovation",
+      "address":"5-8-10 Minami Azabu",
+      "city":"Minato-ku Tokyo Japan",
+      "phone":"Open House - June 3, 2022 - June 18, 2022",
+      "clothing":"N/A",
+      "housing":"N/A",
+      "distribution":"N/A",
+      "announced":"9 August 1975",
+      "dedicated":"27 October 1980",
+      "imageurl":"images/tokyo_temple.jpg"
+    }
+  ]
+}
